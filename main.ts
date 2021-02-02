@@ -1,6 +1,6 @@
 while (true) {
     if (input.acceleration(Dimension.X) > 7 || input.acceleration(Dimension.X) < 7) {
-        light.setPixelColor(4, light.rgb(255, 0, 255))
+        light.setPixelColor(9, light.rgb(255, 0, 255))
     }
     
     if (input.acceleration(Dimension.Z) > 20 || input.acceleration(Dimension.Z) < 20) {
