@@ -1,5 +1,5 @@
 while (true) {
-    if (input.acceleration(Dimension.X) > 0 || input.acceleration(Dimension.X) < 0) {
+    if (input.acceleration(Dimension.X) > 7 || input.acceleration(Dimension.X) < 7) {
         light.setAll(light.rgb(255, 0, 255))
     }
     
